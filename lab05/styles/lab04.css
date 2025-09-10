@@ -1,0 +1,61 @@
+/* filename: [Lab04]
+
+author: [Yati Moe]
+
+created: [9/3/2025]
+
+last modified: [9/3/2025]
+
+description: [html files it refers to (lab04-1.html is all styled with this css file]
+
+*/
+
+*{font-family: Calibri,sans-serif;}
+
+h1 {color:#800080;
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+h2 {
+    color: rgb(0,128,128);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+aside, footer { font-style: italic; }  
+
+h1, h2, h3 {font-family: Arial, sans-serif;}
+
+#images {text-align : center;}
+
+nav a {
+          text-decoration: none;
+          padding:0.2em 0.6em;
+          border: 4px solid #ccc;
+         }     
+table,th,td {border: 1px solid black;    }
+
+#heading_title {color: #FF0000;}
+
+.special {
+          color: darkorange;
+          font-weight:bold;
+         }     
+
+aside:hover {
+    display: none;
+}
+
+ol ul {
+    list-style-type: square;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+}
+
+.month {
+    text-align: right;
+}

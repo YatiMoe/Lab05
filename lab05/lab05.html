@@ -7,6 +7,9 @@
   <meta name="author" content="A Lecturer"  />
   <title>CSS Layout</title>
   <!-- References to external CSS files -->
+   <link a href="styles/lab04.css" rel="stylesheet" type="text/css" />
+   <link a href="styles/style.css" rel="stylesheet" type="text/css" />
+   <link a href="styles/dl.css" rel="stylesheet" type="text/css" />
  
   
 </head>
@@ -47,8 +50,7 @@
       
       <!-- Comments can be useful to indicate various sections of markup-->
       <!--Lists-->
-      <section id="lists">
-		  <h2>Lists</h2>
+      <section id="lists" class="column">
       <p>There are three types of lists: Unordered and Ordered lists, and Definition Lists</p>
       <h3>Unordered List</h3>
 	  <ul>
@@ -82,7 +84,7 @@
 			 <li>Third item</li>
 			</ol>		
 		</section>
-		<section id="tables">
+		<section id="tables" class="column">
 		  <h2>Tables</h2>
 		  <table>
 			 <caption>Table of Monthly Savings</caption>
@@ -121,13 +123,13 @@
 			</tfoot>
 			</table>
 		</section>
-		<section id="hyperlinks">
+		<section id="hyperlinks" class="column">
 		  <h2>Hyperlinks</h2>
 		  <p><a href="http://ilearn.swin.edu.au" title="This takes you to Blackboard"> This is a link to an external site Blackboard</a></p>
 		  <p>This is a link to the <a href="#list">List Section </a> of the Web page</p>
 		  <p>This is a link using <a href="mailto:someone@swin.edu.au"> email</a> rather than an http protocol</p> 
 		</section>
-		<section id="images">
+		<section id="images" class="column">
 			<h2 >Images</h2>
 			<figure><figcaption>This thumbnail image is used as a hyperlink to a larger version of the image</figcaption>
 			<a href="images/mycat.jpg">  <img src="images/mycat_small.jpg" alt="Photo of my cat" title="Filesize 222kb " /></a></figure>
